@@ -1,5 +1,5 @@
 ## Application Workflow on Production Prediction using Random Forest Model Given 1 of the 7 Sampling Methods
-#### Creating new project based on applying several sampling methods and feature selection methods in order to predict production at a high rate using a random foresr model
+#### Creating new project based on applying several sampling methods and feature selection methods in order to predict production at a high rate using a random forest model
 #### Workflow summary
 * By performing feature engineering, the machine learning methods were able to perform optimally, thereby enabling more reliable results with potential outliers removed and the variances of each feature standardized to one with a mean of zero.
 * During feature selection, I utilized the derived correlation coefficients plus the mutual information and feature importance to find the 4 optimal predictive features that had a high correlation to Production, yet were not highly correlated between each other. Computing these coefficients was another way to mitigate the chance of multicollinearity (i.e., decrease the dimensionality of the problem, and decrease the chance of redundant features), and to allow for the random forest model to perform optimally.
